@@ -1,0 +1,159 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "FrontEndCode", "FrontEndCode\FrontEndCode.vbproj", "{8DBF15BE-9C7A-427A-9270-857AC577C150}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrontEndForm", "FrontEndForm\FrontEndForm.csproj", "{75A71FCF-FAE7-4B7F-9FAD-64DD47227DD0}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "FrontEndData", "FrontEndData\FrontEndData.vbproj", "{2BD06E78-20F2-464B-B352-B36B4087B1BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEndRoot", "FrontEndRoot", "{A734C45E-FC90-4F55-85ED-D39F115698C2}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEndRoot\favicon.ico = FrontEndRoot\favicon.ico
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{370E20E3-BCCD-497C-BD07-D76C33AFC98C}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEndRoot\css\site.css = FrontEndRoot\css\site.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{2898A631-03E6-4D58-A6FF-F369D0128BDB}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEndRoot\js\site.js = FrontEndRoot\js\site.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{92C7FA0F-E765-48C6-A8B0-C891312732A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bootstrap", "bootstrap", "{5031EE09-6467-4F2B-8D9B-4FE46C0BEBAA}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEndRoot\lib\bootstrap\LICENSE = FrontEndRoot\lib\bootstrap\LICENSE
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dist", "dist", "{5C744A7B-965F-4177-8E68-1BAA6D5E558D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{913C5C2E-BF29-4795-964B-47A4B842A35B}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-grid.css = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-grid.css
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-grid.css.map = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-grid.min.css = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-reboot.css = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-reboot.css
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-reboot.css.map = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-reboot.min.css = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-utilities.css = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-utilities.css
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-utilities.css.map = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-utilities.min.css = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map = FrontEndRoot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap.css = FrontEndRoot\lib\bootstrap\dist\css\bootstrap.css
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap.css.map = FrontEndRoot\lib\bootstrap\dist\css\bootstrap.css.map
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap.min.css = FrontEndRoot\lib\bootstrap\dist\css\bootstrap.min.css
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap.min.css.map = FrontEndRoot\lib\bootstrap\dist\css\bootstrap.min.css.map
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap.rtl.css = FrontEndRoot\lib\bootstrap\dist\css\bootstrap.rtl.css
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap.rtl.css.map = FrontEndRoot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap.rtl.min.css = FrontEndRoot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+		FrontEndRoot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map = FrontEndRoot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{AF051E19-31FD-47AE-B009-20DC6D626677}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEndRoot\lib\bootstrap\dist\js\bootstrap.bundle.js = FrontEndRoot\lib\bootstrap\dist\js\bootstrap.bundle.js
+		FrontEndRoot\lib\bootstrap\dist\js\bootstrap.bundle.js.map = FrontEndRoot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+		FrontEndRoot\lib\bootstrap\dist\js\bootstrap.bundle.min.js = FrontEndRoot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+		FrontEndRoot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map = FrontEndRoot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+		FrontEndRoot\lib\bootstrap\dist\js\bootstrap.esm.js = FrontEndRoot\lib\bootstrap\dist\js\bootstrap.esm.js
+		FrontEndRoot\lib\bootstrap\dist\js\bootstrap.esm.js.map = FrontEndRoot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+		FrontEndRoot\lib\bootstrap\dist\js\bootstrap.esm.min.js = FrontEndRoot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+		FrontEndRoot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map = FrontEndRoot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+		FrontEndRoot\lib\bootstrap\dist\js\bootstrap.js = FrontEndRoot\lib\bootstrap\dist\js\bootstrap.js
+		FrontEndRoot\lib\bootstrap\dist\js\bootstrap.js.map = FrontEndRoot\lib\bootstrap\dist\js\bootstrap.js.map
+		FrontEndRoot\lib\bootstrap\dist\js\bootstrap.min.js = FrontEndRoot\lib\bootstrap\dist\js\bootstrap.min.js
+		FrontEndRoot\lib\bootstrap\dist\js\bootstrap.min.js.map = FrontEndRoot\lib\bootstrap\dist\js\bootstrap.min.js.map
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jquery", "jquery", "{82444818-D58F-44BD-8A61-9208E81410E4}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEndRoot\lib\jquery\LICENSE.txt = FrontEndRoot\lib\jquery\LICENSE.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dist", "dist", "{5D0D6ACF-EF7B-4487-8543-82DB225ED804}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEndRoot\lib\jquery\dist\jquery.js = FrontEndRoot\lib\jquery\dist\jquery.js
+		FrontEndRoot\lib\jquery\dist\jquery.min.js = FrontEndRoot\lib\jquery\dist\jquery.min.js
+		FrontEndRoot\lib\jquery\dist\jquery.min.map = FrontEndRoot\lib\jquery\dist\jquery.min.map
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jquery-validation", "jquery-validation", "{6D6002D4-74FC-49DA-8197-30C74D2F4173}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEndRoot\lib\jquery-validation\LICENSE.md = FrontEndRoot\lib\jquery-validation\LICENSE.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dist", "dist", "{DE17E11B-D78A-4322-8AB7-A246815C933D}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEndRoot\lib\jquery-validation\dist\additional-methods.js = FrontEndRoot\lib\jquery-validation\dist\additional-methods.js
+		FrontEndRoot\lib\jquery-validation\dist\additional-methods.min.js = FrontEndRoot\lib\jquery-validation\dist\additional-methods.min.js
+		FrontEndRoot\lib\jquery-validation\dist\jquery.validate.js = FrontEndRoot\lib\jquery-validation\dist\jquery.validate.js
+		FrontEndRoot\lib\jquery-validation\dist\jquery.validate.min.js = FrontEndRoot\lib\jquery-validation\dist\jquery.validate.min.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jquery-validation-unobtrusive", "jquery-validation-unobtrusive", "{E35A22B0-578E-4489-86F0-35C76F39BE41}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEndRoot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js = FrontEndRoot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+		FrontEndRoot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js = FrontEndRoot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+		FrontEndRoot\lib\jquery-validation-unobtrusive\LICENSE.txt = FrontEndRoot\lib\jquery-validation-unobtrusive\LICENSE.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DBF15BE-9C7A-427A-9270-857AC577C150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DBF15BE-9C7A-427A-9270-857AC577C150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DBF15BE-9C7A-427A-9270-857AC577C150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DBF15BE-9C7A-427A-9270-857AC577C150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75A71FCF-FAE7-4B7F-9FAD-64DD47227DD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A71FCF-FAE7-4B7F-9FAD-64DD47227DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A71FCF-FAE7-4B7F-9FAD-64DD47227DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A71FCF-FAE7-4B7F-9FAD-64DD47227DD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BD06E78-20F2-464B-B352-B36B4087B1BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD06E78-20F2-464B-B352-B36B4087B1BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD06E78-20F2-464B-B352-B36B4087B1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD06E78-20F2-464B-B352-B36B4087B1BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{370E20E3-BCCD-497C-BD07-D76C33AFC98C} = {A734C45E-FC90-4F55-85ED-D39F115698C2}
+		{2898A631-03E6-4D58-A6FF-F369D0128BDB} = {A734C45E-FC90-4F55-85ED-D39F115698C2}
+		{92C7FA0F-E765-48C6-A8B0-C891312732A0} = {A734C45E-FC90-4F55-85ED-D39F115698C2}
+		{5031EE09-6467-4F2B-8D9B-4FE46C0BEBAA} = {92C7FA0F-E765-48C6-A8B0-C891312732A0}
+		{5C744A7B-965F-4177-8E68-1BAA6D5E558D} = {5031EE09-6467-4F2B-8D9B-4FE46C0BEBAA}
+		{913C5C2E-BF29-4795-964B-47A4B842A35B} = {5C744A7B-965F-4177-8E68-1BAA6D5E558D}
+		{AF051E19-31FD-47AE-B009-20DC6D626677} = {5C744A7B-965F-4177-8E68-1BAA6D5E558D}
+		{82444818-D58F-44BD-8A61-9208E81410E4} = {92C7FA0F-E765-48C6-A8B0-C891312732A0}
+		{5D0D6ACF-EF7B-4487-8543-82DB225ED804} = {82444818-D58F-44BD-8A61-9208E81410E4}
+		{6D6002D4-74FC-49DA-8197-30C74D2F4173} = {92C7FA0F-E765-48C6-A8B0-C891312732A0}
+		{DE17E11B-D78A-4322-8AB7-A246815C933D} = {6D6002D4-74FC-49DA-8197-30C74D2F4173}
+		{E35A22B0-578E-4489-86F0-35C76F39BE41} = {92C7FA0F-E765-48C6-A8B0-C891312732A0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECAF4CD4-398D-4A30-B91B-1ADF45A7721D}
+	EndGlobalSection
+EndGlobal
